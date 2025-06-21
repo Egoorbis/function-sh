@@ -35,3 +35,62 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+*.pyo
+*.pyd
+*.pycache/
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv/
+.python_packages/
+
+# Azure Functions artifacts
+.local.settings.json
+*.funcignore
+
+# VS Code settings
+.vscode/
+.history/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Test and coverage results
+.coverage
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+
+# Azure artifacts
+__blobstorage__
+__queuestorage__
+__azurite_db*__.json
+
+# Node modules (if using JavaScript extensions)
+node_modules/
+
+# Miscellaneous
+*.swp
+*.swo
